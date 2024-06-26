@@ -9,11 +9,46 @@
     <title>My Webpage</title>
 </head>
 <body>
-    <!-- Your content goes here -->
-    <h1>Hello World!</h1>
-    <div id="kitty">
-        <img src="images/kitten.jpg" alt="This is a kitten.">
-        <button id="btn">Click me</button>
-    </div>
+    <form>
+        <h1>Sandwhich Maker</h1>
+        <div id="sandwhich">
+            <img src="images/sandwhiche.jpg" style="width:300px;height:200px;"<br>
+        </div>
+        <label for="sname">Sandwhich Name:</label>
+        <input type:"text" id="sname" name="sname">
+        <p>______________________</p>
+        <div>
+            <p>Pick your favorite type of bread:</p>
+            <input type="radio" id="bread" name="bread">
+            <label for="bread">Wheat</label><br>
+            <input type="radio" id="bread" name="bread">
+            <label for="bread">White</label><br>
+            <input type="radio" id="bread" name="bread">
+            <label for="bread">Whole Grain</label>
+        </div>
+        <p>______________________</p>
+        <div>
+            <label for="protein">Preferred Protein:</label>
+            <select>
+                <option value="protein">Ham</option>
+                <option value="protein">Turkey</option>
+                <option value="protein">Chicken</option>
+                <option value="protein">Bacon</option>
+            </select>
+        </div>
+        <p>______________________</p>
+        <div>
+            <p>Select Toppings</p>
+            <input type="checkbox" id="toppings" name="toppings" value="lettuce"
+            <label>lettuce</label><br>
+            <input type="checkbox" id="toppings" name="toppings" value="tomato"
+            <label>tomato</label><br>
+            <input type="checkbox" id="toppings" name="toppings" value="ranch"
+            <label>ranch</label><br>
+            <input type="checkbox" id="toppings" name="toppings" value="cheese"
+            <label>cheese</label>
+
+        </div>
+    </form>
 </body>
 </html>
